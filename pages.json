@@ -5,6 +5,18 @@
 			"style": {
 				"navigationBarTitleText": "uni-app"
 			}
+		},
+		{
+			"path": "pages/Home/Home",
+			"style": {
+				"navigationBarTitleText": "Home"
+			}
+		},
+		{
+			"path": "pages/Item/Item",
+			"style": {
+				"navigationBarTitleText": "Item"
+			}
 		}
 	],
 	"globalStyle": {
@@ -13,5 +25,28 @@
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
 	},
-	"uniIdRouter": {}
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/comon/icon/信息-copy.png",
+			"selectedIconPath": "static/comon/icon/信息-copy-copy.png",
+			"text": "列表"
+		}, {
+			"pagePath": "pages/Home/Home",
+			"iconPath": "static/comon/icon/信誉.png",
+			"selectedIconPath": "static/comon/icon/信誉-copy.png",
+			"text": "宫格"
+		}, {
+			"pagePath": "pages/Item/Item",
+			"iconPath": "static/comon/icon/我的.png",
+			"selectedIconPath": "static/comon/icon/我的-copy.png",
+			"text": "我的"
+		}
+		]
+	}
 }
